@@ -1,2 +1,2107 @@
-_ = lambda __ : __import__('zlib').decompress(__import__('base64').b64decode(__[::-1]));
-exec((_)(b'==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'))
+from web3 import Web3
+from web3.exceptions import TransactionNotFound
+from eth_utils import to_hex
+from eth_utils import keccak, to_bytes
+from eth_account import Account
+from eth_account.messages import encode_defunct
+from aiohttp import ClientResponseError, ClientSession, ClientTimeout, BasicAuth
+from aiohttp_socks import ProxyConnector
+from fake_useragent import FakeUserAgent
+from datetime import datetime
+from colorama import *
+import asyncio, random, time, json, uuid, re, os, pytz
+
+wib = pytz.timezone('Asia/Jakarta')
+
+POLARISE_TOPICS = {
+    "core_protocol": [
+        "ERC-1000: The Game-Changer NFT Standard",
+        "NFT Liquidity Crisis: The Problem We're Solving",
+        "Flash Trade Explained: Instant NFT Swaps",
+        "P-Tokens: Your NFT's Liquid Twin"
+    ],
+    "defi_tools": [
+        "100% LTV Loans: Too Good to Be True?",
+        "Leverage in NFT Trading Without Getting Rekt",
+        "Consignment: Get Paid Now, Sell Later",
+        "Multi-Chain Strategy: Why It Matters"
+    ],
+    "nft_ecosystem": [
+        "Beyond JPEGs: Real NFT Utility",
+        "Non-Standard Assets (NSA) Market Explained",
+        "NFT Gaming & Metaverse Integration",
+        "Digital Art vs Financial Assets: The Debate"
+    ],
+    "platform": [
+        "Polarise Testnet: Your First Steps",
+        "From PawnFi to Polarise: The Rebrand Story",
+        "Security First: How We Protect Your Assets",
+        "User Experience Revolution in NFT DeFi"
+    ],
+    "insights": [
+        "The NFT Market: Dead or Just Getting Started?",
+        "DeFi + NFTs: Why It Took So Long",
+        "Institutional Money & NFT Liquidity",
+        "Web3's Biggest Lie: You Own Your Assets"
+    ],
+    "market_analysis": [
+        "NFT Floor Price Dynamics Explained",
+        "Volatility: Friend or Foe in NFT Markets?",
+        "The Liquidity Premium: Why It Matters",
+        "Market Cycles & Timing Your NFT Strategy"
+    ],
+    "educational": [
+        "NFT Liquidity 101: A Beginner's Guide",
+        "Smart Contracts Demystified for Normies",
+        "Tokenomics: The $PFT Guide",
+        "Risk Management for NFT Holders"
+    ],
+    "future_vision": [
+        "The Next Evolution of NFTs",
+        "Building the Future of Digital Ownership"
+    ],
+    "hot_takes": [
+        "OpenSea is Dead (And That's Good)",
+        "Why Most NFT Projects Deserve to Fail",
+        "The Truth About NFT Communities",
+        "Royalties Are Killing NFTs",
+        "DAOs Don't Work (Yet)",
+        "The Metaverse Hype Was a Lie",
+        "Why I'm Bullish on NFTs But Bearish on Your Project",
+        "The Real Reason You Can't Sell Your NFT",
+        "Crypto Twitter Is Ruining Crypto",
+        "If You Don't Understand Liquidity, You Don't Understand NFTs"
+    ]
+}
+
+COMMENT_LIST = [
+    "Good", "Great", "Nice", "Awesome", "Cool", "Well done", "Good job", "Solid", "Perfect", "Amazing",
+    "GM", "GM Mate", "Good Morning", "Morning Mate", "Morning all", "GM everyone", "Rise and shine", "Morning vibes", "Fresh start", "New day",
+    "GN", "GN Mate", "Good Night", "Night Mate", "Sleep well", "Sweet dreams", "Rest well", "Night vibes", "Time to rest", "See you tomorrow",
+    "Hello", "Hello Mate", "Hi", "Hi Mate", "Hey", "Hey Mate", "Yo", "Yo Mate", "What's up", "Sup Mate",
+    "Agree", "Totally agree", "Absolutely", "Indeed", "Exactly", "True", "Well said", "Makes sense", "Facts", "100% agree",
+    "LFG", "Let's go", "Keep going", "On fire", "Bullish", "WAGMI", "To the moon", "Big vibes", "Strong move", "Nice play",
+    "Follow me", "Follow back", "Let's connect", "Support each other", "Stay connected", "See you around", "Much respect", "Cheers", "Salute", "Respect"
+]
+
+class Polarise:
+    def __init__(self) -> None:
+        self.BASE_API = "https://apia.polarise.org/api/app/v1"
+        self.RPC_URL = "https://chainrpc.polarise.org/"
+        self.EXPLORER = "https://explorer.polarise.org/tx/"
+        self.REF_CODE = "2BHlBH" # U can change it with yours.
+
+        self.CONFIG = {
+            "transfer": {
+                "amount": 0.001,
+                "gas_fee": 0.0021,
+                "recepient": "0x9c4324156bA59a70FFbc67b98eE2EF45AEE4e19F"
+            },
+            "donate": {
+                "amount": 1,
+                "recepient": "0x1d1afc2d015963017bed1de13e4ed6c3d3ed1618",
+                "token_address": "0x351EF49f811776a3eE26f3A1fBc202915B8f2945",
+                "contract_address": "0x639A8A05DAD556256046709317c76927b053a85D",
+            },
+            "discussion": {
+                "contract_address": "0x58477a0e15ae82E9839f209b13EFF25eC06c252B",
+            }
+        }
+
+        self.CONTRACT_ABI = [
+            {
+                "inputs": [
+                    { "internalType": "address", "name": "account", "type": "address" }
+                ],
+                "name": "balanceOf",
+                "outputs": [
+                    { "internalType": "uint256", "name": "", "type": "uint256" }
+                ],
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "inputs": [
+                    { "internalType": "address", "name": "owner", "type": "address" },
+                    { "internalType": "address", "name": "spender", "type": "address" }
+                ],
+                "name": "allowance",
+                "outputs": [
+                    { "internalType": "uint256", "name": "", "type": "uint256" }
+                ],
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "inputs": [
+                    { "internalType": "address", "name": "spender", "type": "address" },
+                    { "internalType": "uint256", "name": "value", "type": "uint256" }
+                ],
+                "name": "approve",
+                "outputs": [
+                    { "internalType": "bool", "name": "", "type": "bool" }
+                ],
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "inputs": [
+                    { "name": "receiver", "type": "address", "internalType": "address"}, 
+                    { "name": "amount", "type": "uint256", "internalType": "uint256"}
+                ],
+                "name": "donate",
+                "outputs": [],
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "type": "function",
+                "name": "createDiscussionEvent",
+                "inputs": [
+                    { "name": "questionId", "type": "bytes32", "internalType": "bytes32" }, 
+                    { "name": "nftMint", "type": "bool", "internalType": "bool" }, 
+                    { "name": "communityRecipient", "type": "address", "internalType": "address" }, 
+                    { "name": "collateralToken", "type": "address", "internalType": "address" }, 
+                    { "name": "endTime", "type": "uint64", "internalType": "uint64" }, 
+                    { "name": "outcomeSlots", "type": "bytes32[]", "internalType": "bytes32[]" }
+                ],
+                "outputs": [],
+                "stateMutability": "nonpayable"
+            }
+        ]
+
+        self.HEADERS = {}
+        self.api_key = None
+        self.all_topics = []
+        self.proxies = []
+        self.proxy_index = 0
+        self.account_proxies = {}
+        self.access_tokens = {}
+        self.auth_tokens = {}
+        self.nonce = {}
+        self.sub_id = {}
+
+    def clear_terminal(self):
+        os.system('cls' if os.name == 'nt' else 'clear')
+
+    def log(self, message):
+        print(
+            f"{Fore.CYAN + Style.BRIGHT}[ {datetime.now().astimezone(wib).strftime('%x %X %Z')} ]{Style.RESET_ALL}"
+            f"{Fore.WHITE + Style.BRIGHT} | {Style.RESET_ALL}{message}",
+            flush=True
+        )
+
+    def welcome(self):
+        print(
+            f"""
+        {Fore.GREEN + Style.BRIGHT}Polarise{Fore.BLUE + Style.BRIGHT} Auto BOT
+            """
+            f"""
+        {Fore.GREEN + Style.BRIGHT}Rey? {Fore.YELLOW + Style.BRIGHT}<INI WATERMARK>
+            """
+        )
+
+    def format_seconds(self, seconds):
+        hours, remainder = divmod(seconds, 3600)
+        minutes, seconds = divmod(remainder, 60)
+        return f"{int(hours):02}:{int(minutes):02}:{int(seconds):02}"
+    
+    def load_all_topics(self):
+        try:
+            all_topics = []
+            for category, topics in POLARISE_TOPICS.items():
+                all_topics.extend(topics)
+            return all_topics
+        except Exception as e:
+            return []
+        
+    def load_accounts(self):
+        try:
+            with open('accounts.txt', 'r') as file:
+                accounts = [line.strip() for line in file if line.strip()]
+            return accounts
+        except FileNotFoundError:
+            self.log(f"{Fore.RED}File 'accounts.txt' Not Found.{Style.RESET_ALL}")
+            return []
+        
+    def load_grok_api_key(self):
+        try:
+            with open('grok_api_key.txt', 'r') as file:
+                grok_api_key = file.readline().strip()
+            return grok_api_key
+        except FileNotFoundError:
+            self.log(f"{Fore.RED}File 'grok_api_key.txt' Not Found.{Style.RESET_ALL}")
+            return []
+    
+    def load_proxies(self):
+        filename = "proxy.txt"
+        try:
+            if not os.path.exists(filename):
+                self.log(f"{Fore.RED + Style.BRIGHT}File {filename} Not Found.{Style.RESET_ALL}")
+                return
+            with open(filename, 'r') as f:
+                self.proxies = [line.strip() for line in f.read().splitlines() if line.strip()]
+            
+            if not self.proxies:
+                self.log(f"{Fore.RED + Style.BRIGHT}No Proxies Found.{Style.RESET_ALL}")
+                return
+
+            self.log(
+                f"{Fore.GREEN + Style.BRIGHT}Proxies Total  : {Style.RESET_ALL}"
+                f"{Fore.WHITE + Style.BRIGHT}{len(self.proxies)}{Style.RESET_ALL}"
+            )
+        
+        except Exception as e:
+            self.log(f"{Fore.RED + Style.BRIGHT}Failed To Load Proxies: {e}{Style.RESET_ALL}")
+            self.proxies = []
+
+    def check_proxy_schemes(self, proxies):
+        schemes = ["http://", "https://", "socks4://", "socks5://"]
+        if any(proxies.startswith(scheme) for scheme in schemes):
+            return proxies
+        return f"http://{proxies}"
+
+    def get_next_proxy_for_account(self, token):
+        if token not in self.account_proxies:
+            if not self.proxies:
+                return None
+            proxy = self.check_proxy_schemes(self.proxies[self.proxy_index])
+            self.account_proxies[token] = proxy
+            self.proxy_index = (self.proxy_index + 1) % len(self.proxies)
+        return self.account_proxies[token]
+
+    def rotate_proxy_for_account(self, token):
+        if not self.proxies:
+            return None
+        proxy = self.check_proxy_schemes(self.proxies[self.proxy_index])
+        self.account_proxies[token] = proxy
+        self.proxy_index = (self.proxy_index + 1) % len(self.proxies)
+        return proxy
+    
+    def build_proxy_config(self, proxy=None):
+        if not proxy:
+            return None, None, None
+
+        if proxy.startswith("socks"):
+            connector = ProxyConnector.from_url(proxy)
+            return connector, None, None
+
+        elif proxy.startswith("http"):
+            match = re.match(r"http://(.*?):(.*?)@(.*)", proxy)
+            if match:
+                username, password, host_port = match.groups()
+                clean_url = f"http://{host_port}"
+                auth = BasicAuth(username, password)
+                return None, clean_url, auth
+            else:
+                return None, proxy, None
+
+        raise Exception("Unsupported Proxy Type.")
+    
+    def generate_address(self, account: str):
+        try:
+            account = Account.from_key(account)
+            address = account.address
+            
+            return address
+        except Exception as e:
+            return None
+        
+    def mask_account(self, account):
+        try:
+            mask_account = account[:6] + '*' * 6 + account[-6:]
+            return mask_account
+        except Exception as e:
+            return None
+        
+    def generate_signature(self, account: str, address: str):
+        try:
+            message = f"Nonce to confirm: {self.nonce[address]}"
+            encoded_message = encode_defunct(text=message)
+            signed_message = Account.sign_message(encoded_message, private_key=account)
+            signature = to_hex(signed_message.signature)
+
+            return message, signature
+        except Exception as e:
+            raise Exception(f"Generate Signature Failed: {str(e)}")
+        
+    def generate_login_payload(self, account: str, address: str):
+        try:
+            message, signature = self.generate_signature(account, address)
+            payload = {
+                "signature": signature,
+                "chain_name": "polarise",
+                "name": address[:6],
+                "nonce": self.nonce[address],
+                "wallet": address,
+                "sid": self.access_tokens[address],
+                "sub_id": self.sub_id[address],
+                "inviter_code": self.REF_CODE
+            }
+
+            return payload
+        except Exception as e:
+            raise Exception(f"Generate Login Payload Failed: {str(e)}")
+        
+    def generate_swap_payload(self, account: str, address: str, user_id: int, username: str, used_points: int):
+        try:
+            message, signature = self.generate_signature(account, address)
+            payload = {
+                "user_id": user_id,
+                "user_name": username,
+                "user_wallet": address,
+                "used_points": used_points,
+                "token_symbol": "GRISE",
+                "chain_name": "polarise",
+                "signature": signature,
+                "sign_msg": message
+            }
+
+            return payload
+        except Exception as e:
+            raise Exception(f"Generate Swap Points Payload Failed: {str(e)}")
+        
+    def generate_save_post_payload(self, user_id: str, content: dict):
+        try:
+            payload = {
+                "user_id": user_id,
+                "chain_name": "polarise",
+                "community_id": 0,
+                "community_name": "",
+                "title": content["title"],
+                "tags": [],
+                "description": content["description"],
+                "published_time": int(time.time()) * 1000,
+                "media_links": "[]",
+                "is_subscribe_enable": False
+            }
+
+            return payload
+        except Exception as e:
+            raise Exception(f"Generate Save Post Payload Failed: {str(e)}")
+        
+    def generate_discuss_options(self):
+        options = [
+            {"index":0,"title":"Agree","price":0,"total_buy_share":0,"total_sell_share":0,"total_held_share":0},
+            {"index":1,"title":"Not Agree","price":0,"total_buy_share":0,"total_sell_share":0,"total_held_share":0}
+        ]
+
+        return options
+    
+    def build_outcome_slots(self, options: list):
+        outcome_slots = []
+        for opt in options:
+            if not isinstance(opt, dict):
+                raise ValueError("each option must be dict")
+
+            title = opt.get("title")
+            if not title or not isinstance(title, str):
+                raise ValueError("option.title must be string")
+
+            hashed = keccak(to_bytes(text=title))
+            outcome_slots.append("0x" + hashed.hex())
+
+        return outcome_slots
+
+    def generate_save_discussion_payload(self, user_id: str, discuss_data: dict):
+        try:
+            payload = {
+                "user_id": user_id,
+                "community_id": 0,
+                "community_name": "",
+                "title": discuss_data['title'],
+                "options": json.dumps(discuss_data['options']),
+                "tags": [],
+                "description": discuss_data["description"],
+                "published_time": discuss_data['published_time'],
+                "tx_hash": discuss_data['tx_hash'],
+                "chain_name": "polarise",
+                "media_links": "[]",
+                "question_id": discuss_data['question_id'],
+                "end_time": discuss_data['end_time']
+            }
+
+            return payload
+        except Exception as e:
+            raise Exception(f"Generate Save Discussion Payload Failed: {str(e)}")
+    
+    async def get_web3_with_check(self, address: str, use_proxy: bool, retries=3, timeout=60):
+        request_kwargs = {"timeout": timeout}
+
+        proxy = self.get_next_proxy_for_account(address) if use_proxy else None
+
+        if use_proxy and proxy:
+            request_kwargs["proxies"] = {"http": proxy, "https": proxy}
+
+        for attempt in range(retries):
+            try:
+                web3 = Web3(Web3.HTTPProvider(self.RPC_URL, request_kwargs=request_kwargs))
+                web3.eth.get_block_number()
+                return web3
+            except Exception as e:
+                if attempt < retries - 1:
+                    await asyncio.sleep(3)
+                    continue
+                raise Exception(f"Failed to Connect to RPC: {str(e)}")
+        
+    async def get_token_balance(self, address: str, use_proxy: bool, token_address=None):
+        try:
+            web3 = await self.get_web3_with_check(address, use_proxy)
+
+            if token_address is None:
+                balance = web3.eth.get_balance(address)
+            else:
+                asset_address = web3.to_checksum_address(token_address)
+                token_contract = web3.eth.contract(address=asset_address, abi=self.CONTRACT_ABI)
+                balance = token_contract.functions.balanceOf(address).call()
+
+            token_balance = web3.from_wei(balance, "ether")
+
+            return token_balance
+        except Exception as e:
+            self.log(
+                f"{Fore.BLUE+Style.BRIGHT}   Message : {Style.RESET_ALL}"
+                f"{Fore.RED+Style.BRIGHT}{str(e)}{Style.RESET_ALL}"
+            )
+            return None
+        
+    async def send_raw_transaction_with_retries(self, account, web3, tx, retries=5):
+        for attempt in range(retries):
+            try:
+                signed_tx = web3.eth.account.sign_transaction(tx, account)
+                raw_tx = web3.eth.send_raw_transaction(signed_tx.raw_transaction)
+                tx_hash = web3.to_hex(raw_tx)
+                return tx_hash
+            except TransactionNotFound:
+                pass
+            except Exception as e:
+                self.log(
+                    f"{Fore.BLUE + Style.BRIGHT}   Message : {Style.RESET_ALL}"
+                    f"{Fore.YELLOW + Style.BRIGHT}[Attempt {attempt + 1}] Send TX Error: {str(e)}{Style.RESET_ALL}"
+                )
+            await asyncio.sleep(2 ** attempt)
+        raise Exception("Transaction Hash Not Found After Maximum Retries")
+
+    async def wait_for_receipt_with_retries(self, web3, tx_hash, retries=5):
+        for attempt in range(retries):
+            try:
+                receipt = await asyncio.to_thread(web3.eth.wait_for_transaction_receipt, tx_hash, timeout=300)
+                return receipt
+            except TransactionNotFound:
+                pass
+            except Exception as e:
+                self.log(
+                    f"{Fore.BLUE + Style.BRIGHT}   Message : {Style.RESET_ALL}"
+                    f"{Fore.YELLOW + Style.BRIGHT}[Attempt {attempt + 1}] Wait for Receipt Error: {str(e)}{Style.RESET_ALL}"
+                )
+            await asyncio.sleep(2 ** attempt)
+        raise Exception("Transaction Receipt Not Found After Maximum Retries")
+
+    async def perform_transfer(self, account: str, address: str, use_proxy: bool):
+        try:
+            web3 = await self.get_web3_with_check(address, use_proxy)
+
+            amount_to_wei = web3.to_wei(self.CONFIG['transfer']['amount'], "ether")
+
+            max_priority_fee = web3.to_wei(100, "gwei")
+            max_fee = max_priority_fee
+
+            transfer_tx = {
+                "from": web3.to_checksum_address(address),
+                "to": web3.to_checksum_address(self.CONFIG['transfer']['recepient']),
+                "value": amount_to_wei,
+                "gas": 21000,
+                "maxFeePerGas": int(max_fee),
+                "maxPriorityFeePerGas": int(max_priority_fee),
+                "nonce": web3.eth.get_transaction_count(address, "pending"),
+                "chainId": web3.eth.chain_id,
+            }
+
+            tx_hash = await self.send_raw_transaction_with_retries(account, web3, transfer_tx)
+            receipt = await self.wait_for_receipt_with_retries(web3, tx_hash)
+            block_number = receipt.blockNumber
+
+            return amount_to_wei, tx_hash, block_number
+        except Exception as e:
+            self.log(
+                f"{Fore.BLUE + Style.BRIGHT}   Message : {Style.RESET_ALL}"
+                f"{Fore.RED + Style.BRIGHT}{str(e)}{Style.RESET_ALL}"
+            )
+            return None, None, None
+        
+    async def approving_token(self, account: str, address: str, spender: str, asset_address: str, amount: int, use_proxy: bool):
+        try:
+            web3 = await self.get_web3_with_check(address, use_proxy)
+            
+            token_contract = web3.eth.contract(address=asset_address, abi=self.CONTRACT_ABI)
+
+            allowance = token_contract.functions.allowance(address, spender).call()
+            if allowance < amount:
+                approve_data = token_contract.functions.approve(spender, 2**256 - 1)
+                estimated_gas = approve_data.estimate_gas({"from": address})
+
+                max_priority_fee = web3.to_wei(100, "gwei")
+                max_fee = max_priority_fee
+
+                approve_tx = approve_data.build_transaction({
+                    "from": address,
+                    "gas": int(estimated_gas * 1.2),
+                    "maxFeePerGas": int(max_fee),
+                    "maxPriorityFeePerGas": int(max_priority_fee),
+                    "nonce": web3.eth.get_transaction_count(address, "pending"),
+                    "chainId": web3.eth.chain_id,
+                })
+
+                tx_hash = await self.send_raw_transaction_with_retries(account, web3, approve_tx)
+                receipt = await self.wait_for_receipt_with_retries(web3, tx_hash)
+                block_number = receipt.blockNumber
+
+                self.log(
+                    f"{Fore.BLUE+Style.BRIGHT}   Approve : {Style.RESET_ALL}"
+                    f"{Fore.GREEN+Style.BRIGHT}Success{Style.RESET_ALL}"
+                )
+                self.log(
+                    f"{Fore.BLUE+Style.BRIGHT}   Block   : {Style.RESET_ALL}"
+                    f"{Fore.WHITE+Style.BRIGHT}{block_number}{Style.RESET_ALL}"
+                )
+                self.log(
+                    f"{Fore.BLUE+Style.BRIGHT}   Tx Hash : {Style.RESET_ALL}"
+                    f"{Fore.WHITE+Style.BRIGHT}{tx_hash}{Style.RESET_ALL}"
+                )
+                self.log(
+                    f"{Fore.BLUE+Style.BRIGHT}   Explorer: {Style.RESET_ALL}"
+                    f"{Fore.WHITE+Style.BRIGHT}{self.EXPLORER}{tx_hash}{Style.RESET_ALL}"
+                )
+                await asyncio.sleep(3)
+
+            return True
+        except Exception as e:
+            raise Exception(f"Approving Token Contract Failed: {str(e)}")
+
+    async def perform_donate(self, account: str, address: str, use_proxy: bool):
+        try:
+            web3 = await self.get_web3_with_check(address, use_proxy)
+
+            amount_to_wei = web3.to_wei(self.CONFIG['donate']['amount'], "ether")
+
+            receiver_address = web3.to_checksum_address(self.CONFIG['donate']['recepient'])
+            token_address = web3.to_checksum_address(self.CONFIG['donate']['token_address'])
+            contract_address = web3.to_checksum_address(self.CONFIG['donate']['contract_address'])
+
+            await self.approving_token(account, address, contract_address, token_address, amount_to_wei, use_proxy)
+
+            token_contract = web3.eth.contract(address=contract_address, abi=self.CONTRACT_ABI)
+            donate_data = token_contract.functions.donate(receiver_address, amount_to_wei)
+            estimated_gas = donate_data.estimate_gas({"from": address})
+
+            max_priority_fee = web3.to_wei(100, "gwei")
+            max_fee = max_priority_fee
+
+            donate_tx = donate_data.build_transaction({
+                "from": address,
+                "gas": int(estimated_gas * 1.2),
+                "maxFeePerGas": int(max_fee),
+                "maxPriorityFeePerGas": int(max_priority_fee),
+                "nonce": web3.eth.get_transaction_count(address, "pending"),
+                "chainId": web3.eth.chain_id,
+            })
+
+            tx_hash = await self.send_raw_transaction_with_retries(account, web3, donate_tx)
+            receipt = await self.wait_for_receipt_with_retries(web3, tx_hash)
+            block_number = receipt.blockNumber
+
+            return tx_hash, block_number
+        except Exception as e:
+            self.log(
+                f"{Fore.BLUE + Style.BRIGHT}   Message : {Style.RESET_ALL}"
+                f"{Fore.RED + Style.BRIGHT}{str(e)}{Style.RESET_ALL}"
+            )
+            return None, None
+
+    async def perform_create_discuss(self, account: str, address: str, discuss_data: dict, use_proxy: bool):
+        try:
+            web3 = await self.get_web3_with_check(address, use_proxy)
+
+            community_recipient = "0x0000000000000000000000000000000000000000"
+            collateral_token = web3.to_checksum_address(self.CONFIG['donate']['token_address'])
+            contract_address = web3.to_checksum_address(self.CONFIG['discussion']['contract_address'])
+
+            question_id = "0x" + discuss_data['question_id']
+            end_time = discuss_data['end_time']
+
+            outcome_slots = self.build_outcome_slots(discuss_data['options'])
+
+            token_contract = web3.eth.contract(address=contract_address, abi=self.CONTRACT_ABI)
+            discuss_data = token_contract.functions.createDiscussionEvent(
+                question_id, False, community_recipient, collateral_token, end_time, outcome_slots
+            )
+            estimated_gas = discuss_data.estimate_gas({"from": address})
+
+            max_priority_fee = web3.to_wei(100, "gwei")
+            max_fee = max_priority_fee
+
+            discuss_tx = discuss_data.build_transaction({
+                "from": address,
+                "gas": int(estimated_gas * 1.2),
+                "maxFeePerGas": int(max_fee),
+                "maxPriorityFeePerGas": int(max_priority_fee),
+                "nonce": web3.eth.get_transaction_count(address, "pending"),
+                "chainId": web3.eth.chain_id,
+            })
+
+            tx_hash = await self.send_raw_transaction_with_retries(account, web3, discuss_tx)
+            receipt = await self.wait_for_receipt_with_retries(web3, tx_hash)
+            block_number = receipt.blockNumber
+
+            return tx_hash, block_number
+        except Exception as e:
+            self.log(
+                f"{Fore.BLUE + Style.BRIGHT}   Message : {Style.RESET_ALL}"
+                f"{Fore.RED + Style.BRIGHT}{str(e)}{Style.RESET_ALL}"
+            )
+            return None, None
+        
+    async def generate_extra_info(self, account: str, address: str, use_proxy: bool):
+        amount, tx_hash, block_number = await self.perform_transfer(account, address, use_proxy)
+        if amount and tx_hash and block_number:
+            self.log(
+                f"{Fore.BLUE+Style.BRIGHT}   Donate  : {Style.RESET_ALL}"
+                f"{Fore.GREEN+Style.BRIGHT}Success{Style.RESET_ALL}"
+            )
+            self.log(
+                f"{Fore.BLUE+Style.BRIGHT}   Block   : {Style.RESET_ALL}"
+                f"{Fore.WHITE+Style.BRIGHT}{block_number}{Style.RESET_ALL}"
+            )
+            self.log(
+                f"{Fore.BLUE+Style.BRIGHT}   Tx Hash : {Style.RESET_ALL}"
+                f"{Fore.WHITE+Style.BRIGHT}{tx_hash}{Style.RESET_ALL}"
+            )
+            self.log(
+                f"{Fore.BLUE+Style.BRIGHT}   Explorer: {Style.RESET_ALL}"
+                f"{Fore.WHITE+Style.BRIGHT}{self.EXPLORER}{tx_hash}{Style.RESET_ALL}"
+            )
+            
+            extra_dict = {
+                "tx_hash": tx_hash,
+                "from": address,
+                "to": self.CONFIG['transfer']["recepient"],
+                "value": str(amount)
+            }
+
+            extra = json.dumps(extra_dict)
+            
+            await asyncio.sleep(3)
+            return extra
+        else:
+            self.log(
+                f"{Fore.BLUE+Style.BRIGHT}   Status  : {Style.RESET_ALL}"
+                f"{Fore.RED+Style.BRIGHT}Perform On-Chain Failed{Style.RESET_ALL}"
+            )
+            return False
+        
+    async def process_perfrom_donate(self, account: str, address: str, use_proxy: bool):
+        tx_hash, block_number = await self.perform_donate(account, address, use_proxy)
+        if tx_hash and block_number:
+            self.log(
+                f"{Fore.BLUE+Style.BRIGHT}   Status  : {Style.RESET_ALL}"
+                f"{Fore.GREEN+Style.BRIGHT}Success{Style.RESET_ALL}                                     "
+            )
+            self.log(
+                f"{Fore.BLUE+Style.BRIGHT}   Block   : {Style.RESET_ALL}"
+                f"{Fore.WHITE+Style.BRIGHT}{block_number}{Style.RESET_ALL}"
+            )
+            self.log(
+                f"{Fore.BLUE+Style.BRIGHT}   Tx Hash : {Style.RESET_ALL}"
+                f"{Fore.WHITE+Style.BRIGHT}{tx_hash}{Style.RESET_ALL}"
+            )
+            self.log(
+                f"{Fore.BLUE+Style.BRIGHT}   Explorer: {Style.RESET_ALL}"
+                f"{Fore.WHITE+Style.BRIGHT}{self.EXPLORER}{tx_hash}{Style.RESET_ALL}"
+            )
+
+            await asyncio.sleep(3)
+            return True
+        else:
+            self.log(
+                f"{Fore.BLUE+Style.BRIGHT}   Status  : {Style.RESET_ALL}"
+                f"{Fore.RED+Style.BRIGHT}Perform On-Chain Failed{Style.RESET_ALL}"
+            )
+            return False
+        
+    async def process_perfrom_create_discuss(self, account: str, address: str, discuss_data: dict, use_proxy: bool):
+        tx_hash, block_number = await self.perform_create_discuss(account, address, discuss_data, use_proxy)
+        if tx_hash and block_number:
+            self.log(
+                f"{Fore.BLUE+Style.BRIGHT}   Status  : {Style.RESET_ALL}"
+                f"{Fore.GREEN+Style.BRIGHT}Success{Style.RESET_ALL}                                     "
+            )
+            self.log(
+                f"{Fore.BLUE+Style.BRIGHT}   Block   : {Style.RESET_ALL}"
+                f"{Fore.WHITE+Style.BRIGHT}{block_number}{Style.RESET_ALL}"
+            )
+            self.log(
+                f"{Fore.BLUE+Style.BRIGHT}   Tx Hash : {Style.RESET_ALL}"
+                f"{Fore.WHITE+Style.BRIGHT}{tx_hash}{Style.RESET_ALL}"
+            )
+            self.log(
+                f"{Fore.BLUE+Style.BRIGHT}   Explorer: {Style.RESET_ALL}"
+                f"{Fore.WHITE+Style.BRIGHT}{self.EXPLORER}{tx_hash}{Style.RESET_ALL}"
+            )
+
+            await asyncio.sleep(3)
+            return tx_hash
+        else:
+            self.log(
+                f"{Fore.BLUE+Style.BRIGHT}   Status  : {Style.RESET_ALL}"
+                f"{Fore.RED+Style.BRIGHT}Perform On-Chain Failed{Style.RESET_ALL}"
+            )
+            return False
+        
+    def print_question(self):
+        while True:
+            try:
+                print(f"{Fore.WHITE + Style.BRIGHT}1. Run With Proxy{Style.RESET_ALL}")
+                print(f"{Fore.WHITE + Style.BRIGHT}2. Run Without Proxy{Style.RESET_ALL}")
+                proxy_choice = int(input(f"{Fore.BLUE + Style.BRIGHT}Choose [1/2] -> {Style.RESET_ALL}").strip())
+
+                if proxy_choice in [1, 2]:
+                    proxy_type = (
+                        "With" if proxy_choice == 1 else 
+                        "Without"
+                    )
+                    print(f"{Fore.GREEN + Style.BRIGHT}Run {proxy_type} Proxy Selected.{Style.RESET_ALL}")
+                    break
+                else:
+                    print(f"{Fore.RED + Style.BRIGHT}Please enter either 1 or 2.{Style.RESET_ALL}")
+            except ValueError:
+                print(f"{Fore.RED + Style.BRIGHT}Invalid input. Enter a number (1 or 2).{Style.RESET_ALL}")
+
+        rotate_proxy = False
+        if proxy_choice == 1:
+            while True:
+                rotate_proxy = input(f"{Fore.BLUE + Style.BRIGHT}Rotate Invalid Proxy? [y/n] -> {Style.RESET_ALL}").strip()
+
+                if rotate_proxy in ["y", "n"]:
+                    rotate_proxy = rotate_proxy == "y"
+                    break
+                else:
+                    print(f"{Fore.RED + Style.BRIGHT}Invalid input. Enter 'y' or 'n'.{Style.RESET_ALL}")
+
+        return proxy_choice, rotate_proxy
+    
+    async def check_connection(self, proxy_url=None):
+        connector, proxy, proxy_auth = self.build_proxy_config(proxy_url)
+        try:
+            async with ClientSession(connector=connector, timeout=ClientTimeout(total=10)) as session:
+                async with session.get(url="https://api.ipify.org?format=json", proxy=proxy, proxy_auth=proxy_auth) as response:
+                    response.raise_for_status()
+                    return True
+        except (Exception, ClientResponseError) as e:
+            self.log(
+                f"{Fore.CYAN+Style.BRIGHT}Status   :{Style.RESET_ALL}"
+                f"{Fore.RED+Style.BRIGHT} Connection Not 200 OK {Style.RESET_ALL}"
+                f"{Fore.MAGENTA+Style.BRIGHT}-{Style.RESET_ALL}"
+                f"{Fore.YELLOW+Style.BRIGHT} {str(e)} {Style.RESET_ALL}"
+            )
+            return None
+        
+    async def get_nonce(self, address: str, use_proxy: bool, retries=5):
+        url = f"{self.BASE_API}/profile/getnonce"
+        data = json.dumps({"wallet": address, "chain_name": "polarise"})
+        headers = {
+            **self.HEADERS[address],
+            "Authorization": "Bearer",
+            "Content-Length": str(len(data)),
+            "Content-Type": "application/json"
+        }
+        for attempt in range(retries):
+            proxy_url = self.get_next_proxy_for_account(address) if use_proxy else None
+            connector, proxy, proxy_auth = self.build_proxy_config(proxy_url)
+            try:
+                async with ClientSession(connector=connector, timeout=ClientTimeout(total=60)) as session:
+                    async with session.post(url=url, headers=headers, data=data, proxy=proxy, proxy_auth=proxy_auth) as response:
+                        response.raise_for_status()
+                        return await response.json()
+            except (Exception, ClientResponseError) as e:
+                if attempt < retries - 1:
+                    await asyncio.sleep(5)
+                    continue
+                self.log(
+                    f"{Fore.CYAN+Style.BRIGHT}Status   :{Style.RESET_ALL}"
+                    f"{Fore.RED+Style.BRIGHT} Get Nonce Failed {Style.RESET_ALL}"
+                    f"{Fore.MAGENTA+Style.BRIGHT}-{Style.RESET_ALL}"
+                    f"{Fore.YELLOW+Style.BRIGHT} {str(e)} {Style.RESET_ALL}"
+                )
+                return None
+        
+    async def gen_biz_id(self, address: str, use_proxy: bool, retries=5):
+        url = f"{self.BASE_API}/discussion/generatebizid"
+        data = json.dumps({
+            "biz_input": address, 
+            "biz_type": "subscription_question", 
+            "chain_name": "polarise"
+        })
+        headers = {
+            **self.HEADERS[address],
+            "Accesstoken": self.access_tokens[address],
+            "Authorization": "Bearer",
+            "Content-Length": str(len(data)),
+            "Content-Type": "application/json"
+        }
+        for attempt in range(retries):
+            proxy_url = self.get_next_proxy_for_account(address) if use_proxy else None
+            connector, proxy, proxy_auth = self.build_proxy_config(proxy_url)
+            try:
+                async with ClientSession(connector=connector, timeout=ClientTimeout(total=60)) as session:
+                    async with session.post(url=url, headers=headers, data=data, proxy=proxy, proxy_auth=proxy_auth) as response:
+                        response.raise_for_status()
+                        return await response.json()
+            except (Exception, ClientResponseError) as e:
+                if attempt < retries - 1:
+                    await asyncio.sleep(5)
+                    continue
+                self.log(
+                    f"{Fore.CYAN+Style.BRIGHT}Status   :{Style.RESET_ALL}"
+                    f"{Fore.RED+Style.BRIGHT} Generate Biz Id Failed {Style.RESET_ALL}"
+                    f"{Fore.MAGENTA+Style.BRIGHT}-{Style.RESET_ALL}"
+                    f"{Fore.YELLOW+Style.BRIGHT} {str(e)} {Style.RESET_ALL}"
+                )
+                return None
+        
+    async def wallet_login(self, account: str, address: str, use_proxy: bool, retries=5):
+        url = f"{self.BASE_API}/profile/login"
+        data = json.dumps(self.generate_login_payload(account, address))
+        headers = {
+            **self.HEADERS[address],
+            "Accesstoken": self.access_tokens[address],
+            "Authorization": "Bearer",
+            "Content-Length": str(len(data)),
+            "Content-Type": "application/json"
+        }
+        for attempt in range(retries):
+            proxy_url = self.get_next_proxy_for_account(address) if use_proxy else None
+            connector, proxy, proxy_auth = self.build_proxy_config(proxy_url)
+            try:
+                async with ClientSession(connector=connector, timeout=ClientTimeout(total=60)) as session:
+                    async with session.post(url=url, headers=headers, data=data, proxy=proxy, proxy_auth=proxy_auth) as response:
+                        response.raise_for_status()
+                        return await response.json()
+            except (Exception, ClientResponseError) as e:
+                if attempt < retries - 1:
+                    await asyncio.sleep(5)
+                    continue
+                self.log(
+                    f"{Fore.CYAN+Style.BRIGHT}Status   :{Style.RESET_ALL}"
+                    f"{Fore.RED+Style.BRIGHT} Login Failed {Style.RESET_ALL}"
+                    f"{Fore.MAGENTA+Style.BRIGHT}-{Style.RESET_ALL}"
+                    f"{Fore.YELLOW+Style.BRIGHT} {str(e)} {Style.RESET_ALL}"
+                )
+                return None
+        
+    async def profile_info(self, address: str, use_proxy: bool, retries=5):
+        url = f"{self.BASE_API}/profile/profileinfo"
+        data = json.dumps({"chain_name": "polarise"})
+        headers = {
+            **self.HEADERS[address],
+            "Accesstoken": self.access_tokens[address],
+            "Authorization": f"Bearer {self.auth_tokens[address]}",
+            "Content-Length": str(len(data)),
+            "Content-Type": "application/json"
+        }
+        for attempt in range(retries):
+            proxy_url = self.get_next_proxy_for_account(address) if use_proxy else None
+            connector, proxy, proxy_auth = self.build_proxy_config(proxy_url)
+            try:
+                async with ClientSession(connector=connector, timeout=ClientTimeout(total=60)) as session:
+                    async with session.post(url=url, headers=headers, data=data, proxy=proxy, proxy_auth=proxy_auth) as response:
+                        response.raise_for_status()
+                        return await response.json()
+            except (Exception, ClientResponseError) as e:
+                if attempt < retries - 1:
+                    await asyncio.sleep(5)
+                    continue
+                self.log(
+                    f"{Fore.CYAN+Style.BRIGHT}Profile  :{Style.RESET_ALL}"
+                    f"{Fore.RED+Style.BRIGHT} Fetch Info Failed {Style.RESET_ALL}"
+                    f"{Fore.MAGENTA+Style.BRIGHT}-{Style.RESET_ALL}"
+                    f"{Fore.YELLOW+Style.BRIGHT} {str(e)} {Style.RESET_ALL}"
+                )
+                return None
+        
+    async def swap_points(self, account: str, address: str, user_id: int, username: str, used_points: int, use_proxy: bool, retries=5):
+        url = f"{self.BASE_API}/profile/swappoints"
+        data = json.dumps(self.generate_swap_payload(account, address, user_id, username, used_points))
+        headers = {
+            **self.HEADERS[address],
+            "Accesstoken": self.access_tokens[address],
+            "Authorization": f"Bearer {self.auth_tokens[address]}",
+            "Content-Length": str(len(data)),
+            "Content-Type": "application/json"
+        }
+        for attempt in range(retries):
+            proxy_url = self.get_next_proxy_for_account(address) if use_proxy else None
+            connector, proxy, proxy_auth = self.build_proxy_config(proxy_url)
+            try:
+                async with ClientSession(connector=connector, timeout=ClientTimeout(total=60)) as session:
+                    async with session.post(url=url, headers=headers, data=data, proxy=proxy, proxy_auth=proxy_auth) as response:
+                        response.raise_for_status()
+                        return await response.json()
+            except (Exception, ClientResponseError) as e:
+                if attempt < retries - 1:
+                    await asyncio.sleep(5)
+                    continue
+                self.log(
+                    f"{Fore.CYAN+Style.BRIGHT}Swap     :{Style.RESET_ALL}"
+                    f"{Fore.RED+Style.BRIGHT} Failed {Style.RESET_ALL}"
+                    f"{Fore.MAGENTA+Style.BRIGHT}-{Style.RESET_ALL}"
+                    f"{Fore.YELLOW+Style.BRIGHT} {str(e)} {Style.RESET_ALL}"
+                )
+                return None
+        
+    async def task_list(self, address: str, use_proxy: bool, retries=5):
+        url = f"{self.BASE_API}/points/tasklist"
+        data = json.dumps({"user_wallet": address, "chain_name": "polarise"})
+        headers = {
+            **self.HEADERS[address],
+            "Accesstoken": self.access_tokens[address],
+            "Authorization": f"Bearer {self.auth_tokens[address]}",
+            "Content-Length": str(len(data)),
+            "Content-Type": "application/json"
+        }
+        for attempt in range(retries):
+            proxy_url = self.get_next_proxy_for_account(address) if use_proxy else None
+            connector, proxy, proxy_auth = self.build_proxy_config(proxy_url)
+            try:
+                async with ClientSession(connector=connector, timeout=ClientTimeout(total=60)) as session:
+                    async with session.post(url=url, headers=headers, data=data, proxy=proxy, proxy_auth=proxy_auth) as response:
+                        response.raise_for_status()
+                        return await response.json()
+            except (Exception, ClientResponseError) as e:
+                if attempt < retries - 1:
+                    await asyncio.sleep(5)
+                    continue
+                self.log(
+                    f"{Fore.CYAN+Style.BRIGHT}Task List:{Style.RESET_ALL}"
+                    f"{Fore.RED+Style.BRIGHT} Fetch List Failed {Style.RESET_ALL}"
+                    f"{Fore.MAGENTA+Style.BRIGHT}-{Style.RESET_ALL}"
+                    f"{Fore.YELLOW+Style.BRIGHT} {str(e)} {Style.RESET_ALL}"
+                )
+                return None
+        
+    async def generate_content(self, topic: str, api_key: str, retries=5):
+        url = "https://api.groq.com/openai/v1/chat/completions"
+        payload = {
+            "model": "llama-3.3-70b-versatile",
+            "temperature": 1.0,
+            "max_tokens": 300,
+            "top_p": 0.95,
+            "messages": [
+                {
+                    "role": "system",
+                    "content": (
+                        "You are a passionate content creator and 'yapper' for Polarise Protocol (a pioneering NFT liquidity initiator reshaping NFT finance with all-in-one system). "
+                        "Your mission: spark conversations, challenge perspectives, and make people THINK.\n\n"
+                        
+                        "TONE & STYLE:\n"
+                        "- Ultra conversational, like you're texting a friend\n"
+                        "- High energy but authentic—no fake hype\n"
+                        "- Opinionated but open to dialogue\n"
+                        "- Mix of punchy one-liners and thought-provoking questions\n"
+                        "- Use analogies, pop culture refs, real-life examples\n\n"
+                        
+                        "FORMATTING:\n"
+                        "- Short paragraphs (1-3 sentences max)\n"
+                        "- Strategic line breaks for impact\n"
+                        "- Occasional emojis (don't overdo it) 🔥💡✨\n"
+                        "- CAPS for emphasis on key points\n"
+                        "- Rhetorical questions to hook readers\n\n"
+                        
+                        "CONTENT APPROACH:\n"
+                        "- Start with a HOOK (question, hot take, or relatable scenario)\n"
+                        "- Present polarizing/thought-provoking angles\n"
+                        "- Back up claims with logic or examples\n"
+                        "- End with a call-to-action or lingering question\n"
+                        "- Make readers feel seen, challenged, or inspired\n\n"
+                        
+                        "AVOID:\n"
+                        "- Corporate buzzwords or jargon\n"
+                        "- Being preachy or condescending\n"
+                        "- Generic inspirational quotes\n"
+                        "- Over-explaining (trust your audience)\n\n"
+                        
+                        "You must ALWAYS respond with valid JSON in this exact format:\n"
+                        "{\n"
+                        '  "title": "Your catchy title here",\n'
+                        '  "content": "Your engaging content here"\n'
+                        "}\n\n"
+                        
+                        "Write in English. Be bold, be real, be memorable."
+                    )
+                },
+                {
+                    "role": "user",
+                    "content": (
+                        f"Create a yapper-style post about: {topic}\n\n"
+                        "Generate:\n"
+                        "1. TITLE: Catchy, attention-grabbing, 5-12 words max. Make it clickable!\n"
+                        "2. CONTENT: Engaging short-form content (100-200 words) that:\n"
+                        "   - Grabs attention immediately\n"
+                        "   - Presents a fresh or controversial perspective\n"
+                        "   - Makes people want to comment/share/debate\n"
+                        "   - Aligns with polarise.org's mission\n\n"
+                        
+                        "Respond ONLY with valid JSON. No markdown, no code blocks, no explanations. "
+                        "Just pure JSON with 'title' and 'content' keys."
+                    )
+                }
+            ]
+        }
+
+        headers = {
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json"
+        }
+        for attempt in range(retries):
+            try:
+                async with ClientSession(timeout=ClientTimeout(total=60)) as session:
+                    async with session.post(url=url, headers=headers, json=payload) as response:
+                        data = await response.json()
+                        if response.status == 429:
+                            err_msg = data.get("error", {}).get("message", "Unknown Error")
+
+                            self.log(
+                                f"{Fore.BLUE+Style.BRIGHT}   Status  : {Style.RESET_ALL}"
+                                f"{Fore.RED+Style.BRIGHT}Create Content Failed{Style.RESET_ALL}"
+                            )
+                            self.log(
+                                f"{Fore.BLUE+Style.BRIGHT}   Message : {Style.RESET_ALL}"
+                                f"{Fore.YELLOW+Style.BRIGHT}{err_msg}{Style.RESET_ALL}"
+                            )
+                            return None
+                        
+                        response.raise_for_status()
+
+                        raw_content = data["choices"][0]["message"]["content"].strip()
+        
+                        if raw_content.startswith("```json"):
+                            raw_content = raw_content.replace("```json", "").replace("```", "").strip()
+                        elif raw_content.startswith("```"):
+                            raw_content = raw_content.replace("```", "").strip()
+                        
+                        result = json.loads(raw_content)
+                        
+                        if "title" not in result or "content" not in result:
+                            raise ValueError("Response missing 'title' or 'content' field")
+                        
+                        return {
+                            "title": result["title"].strip(),
+                            "description": result["content"].strip(),
+                            "topic": topic
+                        }
+            except (Exception, ClientResponseError) as e:
+                if attempt < retries - 1:
+                    await asyncio.sleep(5)
+                    continue
+                self.log(
+                    f"{Fore.BLUE+Style.BRIGHT}   Status  : {Style.RESET_ALL}"
+                    f"{Fore.RED+Style.BRIGHT}Create Content Failed{Style.RESET_ALL}"
+                )
+                self.log(
+                    f"{Fore.BLUE+Style.BRIGHT}   Message : {Style.RESET_ALL}"
+                    f"{Fore.YELLOW+Style.BRIGHT}{str(e)}{Style.RESET_ALL}"
+                )
+                return None
+            
+    async def gen_question_id(self, address: str, biz_input: str, use_proxy: bool, retries=5):
+        url = f"{self.BASE_API}/discussion/generatebizid"
+        data = json.dumps({
+            "biz_input": biz_input,
+            "biz_type": "discussion_question",
+            "chain_name": "polarise"
+        })
+        headers = {
+            **self.HEADERS[address],
+            "Accesstoken": self.access_tokens[address],
+            "Authorization": "Bearer",
+            "Content-Length": str(len(data)),
+            "Content-Type": "application/json"
+        }
+        for attempt in range(retries):
+            proxy_url = self.get_next_proxy_for_account(address) if use_proxy else None
+            connector, proxy, proxy_auth = self.build_proxy_config(proxy_url)
+            try:
+                async with ClientSession(connector=connector, timeout=ClientTimeout(total=60)) as session:
+                    async with session.post(url=url, headers=headers, data=data, proxy=proxy, proxy_auth=proxy_auth) as response:
+                        response.raise_for_status()
+                        return await response.json()
+            except (Exception, ClientResponseError) as e:
+                if attempt < retries - 1:
+                    await asyncio.sleep(5)
+                    continue
+                self.log(
+                    f"{Fore.BLUE+Style.BRIGHT}   Status  : {Style.RESET_ALL}"
+                    f"{Fore.RED+Style.BRIGHT}Generate Question Id Failed{Style.RESET_ALL}"
+                )
+                self.log(
+                    f"{Fore.BLUE+Style.BRIGHT}   Message : {Style.RESET_ALL}"
+                    f"{Fore.YELLOW+Style.BRIGHT}{str(e)}{Style.RESET_ALL}"
+                )
+                return None
+        
+    async def save_discussion(self, address: str, user_id: int, discuss_data: dict, use_proxy: bool, retries=5):
+        url = f"{self.BASE_API}/discussion/savediscussion"
+        data = json.dumps(self.generate_save_discussion_payload(user_id, discuss_data))
+        headers = {
+            **self.HEADERS[address],
+            "Accesstoken": self.access_tokens[address],
+            "Authorization": f"Bearer {self.auth_tokens[address]}",
+            "Content-Length": str(len(data)),
+            "Content-Type": "application/json"
+        }
+        for attempt in range(retries):
+            proxy_url = self.get_next_proxy_for_account(address) if use_proxy else None
+            connector, proxy, proxy_auth = self.build_proxy_config(proxy_url)
+            try:
+                async with ClientSession(connector=connector, timeout=ClientTimeout(total=60)) as session:
+                    async with session.post(url=url, headers=headers, data=data, proxy=proxy, proxy_auth=proxy_auth) as response:
+                        response.raise_for_status()
+                        return await response.json()
+            except (Exception, ClientResponseError) as e:
+                if attempt < retries - 1:
+                    await asyncio.sleep(5)
+                    continue
+                self.log(
+                    f"{Fore.BLUE+Style.BRIGHT}   Post    : {Style.RESET_ALL}"
+                    f"{Fore.RED+Style.BRIGHT}Failed{Style.RESET_ALL}"
+                )
+                self.log(
+                    f"{Fore.BLUE+Style.BRIGHT}   Message : {Style.RESET_ALL}"
+                    f"{Fore.YELLOW+Style.BRIGHT}{str(e)}{Style.RESET_ALL}"
+                )
+                return None
+        
+    async def save_post(self, address: str, user_id: int, content: dict, use_proxy: bool, retries=5):
+        url = f"{self.BASE_API}/posts/savepost"
+        data = json.dumps(self.generate_save_post_payload(user_id, content))
+        headers = {
+            **self.HEADERS[address],
+            "Accesstoken": self.access_tokens[address],
+            "Authorization": f"Bearer {self.auth_tokens[address]}",
+            "Content-Length": str(len(data)),
+            "Content-Type": "application/json"
+        }
+        for attempt in range(retries):
+            proxy_url = self.get_next_proxy_for_account(address) if use_proxy else None
+            connector, proxy, proxy_auth = self.build_proxy_config(proxy_url)
+            try:
+                async with ClientSession(connector=connector, timeout=ClientTimeout(total=60)) as session:
+                    async with session.post(url=url, headers=headers, data=data, proxy=proxy, proxy_auth=proxy_auth) as response:
+                        response.raise_for_status()
+                        return await response.json()
+            except (Exception, ClientResponseError) as e:
+                if attempt < retries - 1:
+                    await asyncio.sleep(5)
+                    continue
+                self.log(
+                    f"{Fore.BLUE+Style.BRIGHT}   Post    : {Style.RESET_ALL}"
+                    f"{Fore.RED+Style.BRIGHT}Failed{Style.RESET_ALL}"
+                )
+                self.log(
+                    f"{Fore.BLUE+Style.BRIGHT}   Message : {Style.RESET_ALL}"
+                    f"{Fore.YELLOW+Style.BRIGHT}{str(e)}{Style.RESET_ALL}"
+                )
+                return None
+        
+    async def home_list(self, address: str, use_proxy: bool, retries=5):
+        url = f"{self.BASE_API}/aggregation/homelist"
+        data = json.dumps({"user_id": 0, "cursor": 0, "limit": 20, "chain_name": "polarise"})
+        headers = {
+            **self.HEADERS[address],
+            "Accesstoken": self.access_tokens[address],
+            "Authorization": f"Bearer {self.auth_tokens[address]}",
+            "Content-Length": str(len(data)),
+            "Content-Type": "application/json"
+        }
+        for attempt in range(retries):
+            proxy_url = self.get_next_proxy_for_account(address) if use_proxy else None
+            connector, proxy, proxy_auth = self.build_proxy_config(proxy_url)
+            try:
+                async with ClientSession(connector=connector, timeout=ClientTimeout(total=60)) as session:
+                    async with session.post(url=url, headers=headers, data=data, proxy=proxy, proxy_auth=proxy_auth) as response:
+                        response.raise_for_status()
+                        return await response.json()
+            except (Exception, ClientResponseError) as e:
+                if attempt < retries - 1:
+                    await asyncio.sleep(5)
+                    continue
+                self.log(
+                    f"{Fore.BLUE+Style.BRIGHT}   Status  : {Style.RESET_ALL}"
+                    f"{Fore.RED+Style.BRIGHT}Failed to Fetch Post List{Style.RESET_ALL}"
+                )
+                self.log(
+                    f"{Fore.BLUE+Style.BRIGHT}   Message : {Style.RESET_ALL}"
+                    f"{Fore.YELLOW+Style.BRIGHT}{str(e)}{Style.RESET_ALL}"
+                )
+                return None
+        
+    async def save_comment(self, address: str, user_id: int, post_id: int, content: str, use_proxy: bool, retries=5):
+        url = f"{self.BASE_API}/posts/savecomment"
+        data = json.dumps({
+            "user_id": user_id, 
+            "post_id": post_id, 
+            "content": content,
+            "tags" : [],
+            "published_time": int(time.time()) * 1000,
+            "chain_name": "polarise"
+        })
+        headers = {
+            **self.HEADERS[address],
+            "Accesstoken": self.access_tokens[address],
+            "Authorization": f"Bearer {self.auth_tokens[address]}",
+            "Content-Length": str(len(data)),
+            "Content-Type": "application/json"
+        }
+        for attempt in range(retries):
+            proxy_url = self.get_next_proxy_for_account(address) if use_proxy else None
+            connector, proxy, proxy_auth = self.build_proxy_config(proxy_url)
+            try:
+                async with ClientSession(connector=connector, timeout=ClientTimeout(total=60)) as session:
+                    async with session.post(url=url, headers=headers, data=data, proxy=proxy, proxy_auth=proxy_auth) as response:
+                        response.raise_for_status()
+                        return await response.json()
+            except (Exception, ClientResponseError) as e:
+                if attempt < retries - 1:
+                    await asyncio.sleep(5)
+                    continue
+                self.log(
+                    f"{Fore.BLUE+Style.BRIGHT}   Comment : {Style.RESET_ALL}"
+                    f"{Fore.RED+Style.BRIGHT}Failed{Style.RESET_ALL}"
+                )
+                self.log(
+                    f"{Fore.BLUE+Style.BRIGHT}   Message : {Style.RESET_ALL}"
+                    f"{Fore.YELLOW+Style.BRIGHT}{str(e)}{Style.RESET_ALL}"
+                )
+                return None
+        
+    async def save_suborder(self, address: str, sub_address: str, use_proxy: bool, retries=5):
+        url = f"{self.BASE_API}/subscription/savesuborder"
+        data = json.dumps({
+            "subed_addr": sub_address, 
+            "sub_id": self.sub_id[address],
+            "order_time": int(time.time()),
+            "chain_name": "polarise"
+        })
+        headers = {
+            **self.HEADERS[address],
+            "Accesstoken": self.access_tokens[address],
+            "Authorization": f"Bearer {self.auth_tokens[address]}",
+            "Content-Length": str(len(data)),
+            "Content-Type": "application/json"
+        }
+        for attempt in range(retries):
+            proxy_url = self.get_next_proxy_for_account(address) if use_proxy else None
+            connector, proxy, proxy_auth = self.build_proxy_config(proxy_url)
+            try:
+                async with ClientSession(connector=connector, timeout=ClientTimeout(total=60)) as session:
+                    async with session.post(url=url, headers=headers, data=data, proxy=proxy, proxy_auth=proxy_auth) as response:
+                        response.raise_for_status()
+                        return await response.json()
+            except (Exception, ClientResponseError) as e:
+                if attempt < retries - 1:
+                    await asyncio.sleep(5)
+                    continue
+                self.log(
+                    f"{Fore.BLUE+Style.BRIGHT}   Suborder: {Style.RESET_ALL}"
+                    f"{Fore.RED+Style.BRIGHT}Failed{Style.RESET_ALL}"
+                )
+                self.log(
+                    f"{Fore.BLUE+Style.BRIGHT}   Message : {Style.RESET_ALL}"
+                    f"{Fore.YELLOW+Style.BRIGHT}{str(e)}{Style.RESET_ALL}"
+                )
+                return None
+        
+    async def complete_task(self, address: str, task_id: int, title: str, use_proxy: bool, extra=None, retries=5):
+        url = f"{self.BASE_API}/points/completetask"
+        payload = {
+            "user_wallet": address, 
+            "task_id": task_id, 
+            "chain_name": "polarise"
+        }
+        
+        if extra is not None:
+            payload["extra_info"] = extra
+
+        data = json.dumps(payload)
+
+        headers = {
+            **self.HEADERS[address],
+            "Accesstoken": self.access_tokens[address],
+            "Authorization": f"Bearer {self.auth_tokens[address]}",
+            "Content-Length": str(len(data)),
+            "Content-Type": "application/json"
+        }
+        for attempt in range(retries):
+            proxy_url = self.get_next_proxy_for_account(address) if use_proxy else None
+            connector, proxy, proxy_auth = self.build_proxy_config(proxy_url)
+            try:
+                async with ClientSession(connector=connector, timeout=ClientTimeout(total=60)) as session:
+                    async with session.post(url=url, headers=headers, data=data, proxy=proxy, proxy_auth=proxy_auth) as response:
+                        response.raise_for_status()
+                        return await response.json()
+            except (Exception, ClientResponseError) as e:
+                if attempt < retries - 1:
+                    await asyncio.sleep(5)
+                    continue
+                if task_id in [3, 4, 5, 6]:
+                    self.log(
+                        f"{Fore.MAGENTA+Style.BRIGHT} ● {Style.RESET_ALL}"
+                        f"{Fore.WHITE+Style.BRIGHT}{title}{Style.RESET_ALL}"
+                        f"{Fore.RED+Style.BRIGHT} Not Completed {Style.RESET_ALL}"
+                        f"{Fore.MAGENTA+Style.BRIGHT}-{Style.RESET_ALL}"
+                        f"{Fore.YELLOW+Style.BRIGHT} {str(e)} {Style.RESET_ALL}"
+                    )
+                else:
+                    self.log(
+                        f"{Fore.BLUE+Style.BRIGHT}   Status  : {Style.RESET_ALL}"
+                        f"{Fore.RED+Style.BRIGHT}Not Completed{Style.RESET_ALL}"
+                    )
+                    self.log(
+                        f"{Fore.BLUE+Style.BRIGHT}   Message : {Style.RESET_ALL}"
+                        f"{Fore.YELLOW+Style.BRIGHT}{str(e)}{Style.RESET_ALL}"
+                    )
+                return None
+            
+    async def process_check_connection(self, address: str, use_proxy: bool, rotate_proxy: bool):
+        while True:
+            proxy = self.get_next_proxy_for_account(address) if use_proxy else None
+            self.log(
+                f"{Fore.CYAN+Style.BRIGHT}Proxy    :{Style.RESET_ALL}"
+                f"{Fore.WHITE + Style.BRIGHT} {proxy} {Style.RESET_ALL}"
+            )
+
+            is_valid = await self.check_connection(proxy)
+            if is_valid: return True
+
+            if rotate_proxy:
+                proxy = self.rotate_proxy_for_account(address)
+                await asyncio.sleep(1)
+                continue
+
+            return False
+        
+    async def process_wallet_login(self, account: str, address: str, use_proxy: bool, rotate_proxy: bool):
+       is_valid = await self.process_check_connection(address, use_proxy, rotate_proxy)
+       if is_valid:
+            
+            get_nonce = await self.get_nonce(address, use_proxy)
+            if not get_nonce: return False
+
+            if get_nonce.get("code") != "200":
+                err_msg = get_nonce.get("msg", "Unknown Error")
+                self.log(
+                    f"{Fore.CYAN+Style.BRIGHT}Status   :{Style.RESET_ALL}"
+                    f"{Fore.RED+Style.BRIGHT} Get Nonce Failed {Style.RESET_ALL}"
+                    f"{Fore.MAGENTA+Style.BRIGHT}-{Style.RESET_ALL}"
+                    f"{Fore.YELLOW+Style.BRIGHT} {err_msg} {Style.RESET_ALL}"
+                )
+                return False
+            
+            self.nonce[address] = get_nonce.get("signed_nonce")
+            
+            biz_id = await self.gen_biz_id(address, use_proxy)
+            if not biz_id: return False
+
+            if biz_id.get("code") != "200":
+                err_msg = biz_id.get("msg", "Unknown Error")
+                self.log(
+                    f"{Fore.CYAN+Style.BRIGHT}Status   :{Style.RESET_ALL}"
+                    f"{Fore.RED+Style.BRIGHT} Generate Biz Id Failed {Style.RESET_ALL}"
+                    f"{Fore.MAGENTA+Style.BRIGHT}-{Style.RESET_ALL}"
+                    f"{Fore.YELLOW+Style.BRIGHT} {err_msg} {Style.RESET_ALL}"
+                )
+                return False
+            
+            self.sub_id[address] = biz_id.get("data", {}).get("Biz_Id")
+
+            login = await self.wallet_login(account, address, use_proxy)
+            if not login: return False
+
+            if login.get("code") != "200":
+                err_msg = login.get("msg", "Unknown Error")
+                self.log(
+                    f"{Fore.CYAN+Style.BRIGHT}Status   :{Style.RESET_ALL}"
+                    f"{Fore.RED+Style.BRIGHT} Login Failed {Style.RESET_ALL}"
+                    f"{Fore.MAGENTA+Style.BRIGHT}-{Style.RESET_ALL}"
+                    f"{Fore.YELLOW+Style.BRIGHT} {err_msg} {Style.RESET_ALL}"
+                )
+                return False
+
+            auth_token = login.get("data", {}).get("auth_token_info", {}).get("auth_token")
+            self.auth_tokens[address] = f"{auth_token} {self.access_tokens[address]} {address} polarise"
+
+            self.log(
+                f"{Fore.CYAN+Style.BRIGHT}Status   :{Style.RESET_ALL}"
+                f"{Fore.GREEN + Style.BRIGHT} Login Success {Style.RESET_ALL}"
+            )
+            return True
+    
+    async def process_accounts(self, account: str, address: str, use_proxy: bool, rotate_proxy: bool):
+        logined = await self.process_wallet_login(account, address, use_proxy, rotate_proxy)
+        if logined:
+            
+            profile = await self.profile_info(address, use_proxy)
+            if profile:
+
+                if profile.get("code") == "200":
+                    user_id = profile.get("data", {}).get("id")
+                    username = profile.get("data", {}).get("user_name")
+                    exchange_points = profile.get("data", {}).get("exchange_total_points")
+                    cumulative_revenue = profile.get("data", {}).get("cumulative_revenue")
+
+                    self.log(
+                        f"{Fore.CYAN+Style.BRIGHT}Points   :{Style.RESET_ALL}"
+                        f"{Fore.WHITE+Style.BRIGHT} {exchange_points} Points {Style.RESET_ALL}"
+                    )
+                    self.log(
+                        f"{Fore.CYAN+Style.BRIGHT}Balance  :{Style.RESET_ALL}"
+                        f"{Fore.WHITE+Style.BRIGHT} {cumulative_revenue} GRISE {Style.RESET_ALL}"
+                    )
+
+                    if exchange_points >= 100:
+                        # Modified logic: Get 100 max even if points are higher
+                        used_points = 100
+
+                        swap = await self.swap_points(account, address, user_id, username, used_points, use_proxy)
+                        if swap:
+
+                            if swap.get("code") == "200":
+                                self.log(f"{Fore.CYAN+Style.BRIGHT}Swap     :{Style.RESET_ALL}")
+
+                                received_amount = swap.get("data", {}).get("received_amount")
+                                tx_hash = swap.get("data", {}).get("tx_hash")
+                                
+                                self.log(
+                                    f"{Fore.BLUE+Style.BRIGHT}   Status  : {Style.RESET_ALL}"
+                                    f"{Fore.GREEN+Style.BRIGHT}Success{Style.RESET_ALL}"
+                                )
+                                self.log(
+                                    f"{Fore.BLUE+Style.BRIGHT}   Received: {Style.RESET_ALL}"
+                                    f"{Fore.WHITE+Style.BRIGHT}{received_amount} GRISE{Style.RESET_ALL}"
+                                )
+                                self.log(
+                                    f"{Fore.BLUE+Style.BRIGHT}   Tx Hash : {Style.RESET_ALL}"
+                                    f"{Fore.WHITE+Style.BRIGHT}{tx_hash}{Style.RESET_ALL}"
+                                )
+                                self.log(
+                                    f"{Fore.BLUE+Style.BRIGHT}   Explorer: {Style.RESET_ALL}"
+                                    f"{Fore.WHITE+Style.BRIGHT}{self.EXPLORER}{tx_hash}{Style.RESET_ALL}"
+                                )
+
+                            else:
+                                err_msg = swap.get("msg", "Unknown Error")
+                                self.log(
+                                    f"{Fore.CYAN+Style.BRIGHT}Swap     :{Style.RESET_ALL}"
+                                    f"{Fore.RED+Style.BRIGHT} Failed {Style.RESET_ALL}"
+                                    f"{Fore.MAGENTA+Style.BRIGHT}-{Style.RESET_ALL}"
+                                    f"{Fore.YELLOW+Style.BRIGHT} {err_msg} {Style.RESET_ALL}"
+                                )
+
+                    else:
+                        self.log(
+                            f"{Fore.CYAN+Style.BRIGHT}Swap     :{Style.RESET_ALL}"
+                            f"{Fore.YELLOW+Style.BRIGHT} Insufficient Points, must >= 100 {Style.RESET_ALL}"
+                        )
+
+                else:
+                    err_msg = profile.get("msg", "Unknown Error")
+                    self.log(
+                        f"{Fore.CYAN+Style.BRIGHT}Profile  :{Style.RESET_ALL}"
+                        f"{Fore.RED+Style.BRIGHT} Fetch Info Failed {Style.RESET_ALL}"
+                        f"{Fore.MAGENTA+Style.BRIGHT}-{Style.RESET_ALL}"
+                        f"{Fore.YELLOW+Style.BRIGHT} {err_msg} {Style.RESET_ALL}"
+                    )
+
+            task_list = await self.task_list(address, use_proxy)
+            if task_list:
+
+                if task_list.get("code") == "200":
+                    self.log(f"{Fore.CYAN+Style.BRIGHT}Task List:{Style.RESET_ALL}")
+
+                    tasks = task_list.get("data", {}).get("list")
+                    for task in tasks:
+                        task_id = task.get("id")
+                        title = task.get("name")
+                        reward = task.get("points")
+                        state = task.get("state")
+
+                        if state == 1:
+                            self.log(
+                                f"{Fore.MAGENTA+Style.BRIGHT} ● {Style.RESET_ALL}"
+                                f"{Fore.WHITE+Style.BRIGHT}{title}{Style.RESET_ALL}"
+                                f"{Fore.YELLOW+Style.BRIGHT} Already Completed {Style.RESET_ALL}"
+                            )
+                            continue
+
+                        if task_id == 3:
+                            self.log(
+                                f"{Fore.MAGENTA+Style.BRIGHT} ● {Style.RESET_ALL}"
+                                f"{Fore.WHITE+Style.BRIGHT}{title}{Style.RESET_ALL}"
+                                f"{Fore.YELLOW+Style.BRIGHT} Skipped {Style.RESET_ALL}"
+                            )
+                            continue
+
+                        elif task_id in [1, 2]:
+                            self.log(
+                                f"{Fore.MAGENTA+Style.BRIGHT} ● {Style.RESET_ALL}"
+                                f"{Fore.WHITE+Style.BRIGHT}{title}{Style.RESET_ALL}"
+                            )
+
+                            self.log(
+                                f"{Fore.BLUE+Style.BRIGHT}   Amount  : {Style.RESET_ALL}"
+                                f"{Fore.WHITE+Style.BRIGHT}{self.CONFIG['transfer']['amount']} POLAR{Style.RESET_ALL}"
+                            )
+                            self.log(
+                                f"{Fore.BLUE+Style.BRIGHT}   Gas Fee : {Style.RESET_ALL}"
+                                f"{Fore.WHITE+Style.BRIGHT}{self.CONFIG['transfer']['gas_fee']} POLAR{Style.RESET_ALL}"
+                            )
+
+                            balance = await self.get_token_balance(address, use_proxy)
+                            self.log(
+                                f"{Fore.BLUE+Style.BRIGHT}   Balance : {Style.RESET_ALL}"
+                                f"{Fore.WHITE+Style.BRIGHT}{balance} POLAR{Style.RESET_ALL}"
+                            )
+
+                            if balance is None:
+                                self.log(
+                                    f"{Fore.BLUE+Style.BRIGHT}   Status  : {Style.RESET_ALL}"
+                                    f"{Fore.RED+Style.BRIGHT}Failed to Fetch POLAR Token Balance{Style.RESET_ALL}"
+                                )
+                                continue
+
+                            if balance < self.CONFIG['transfer']['amount'] + self.CONFIG['transfer']['gas_fee']:
+                                self.log(
+                                    f"{Fore.BLUE+Style.BRIGHT}   Status  : {Style.RESET_ALL}"
+                                    f"{Fore.RED+Style.BRIGHT}Insufficient POLAR Token Balance{Style.RESET_ALL}"
+                                )
+                                continue
+
+                            extra = await self.generate_extra_info(account, address, use_proxy)
+                            if not extra: continue
+
+                            complete = await self.complete_task(address, task_id, title, use_proxy, extra)
+                            if not complete: continue
+
+                            if complete.get("code") != "200":
+                                err_msg = complete.get("msg", "Unknown Error")
+                                self.log(
+                                    f"{Fore.BLUE+Style.BRIGHT}   Status  : {Style.RESET_ALL}"
+                                    f"{Fore.RED+Style.BRIGHT}Not Completed{Style.RESET_ALL}"
+                                )
+                                self.log(
+                                    f"{Fore.BLUE+Style.BRIGHT}   Message : {Style.RESET_ALL}"
+                                    f"{Fore.YELLOW+Style.BRIGHT}{err_msg}{Style.RESET_ALL}"
+                                )
+                                continue
+
+                            if complete.get("data", {}).get("finish_status") == 1:
+                                self.log(
+                                    f"{Fore.BLUE+Style.BRIGHT}   Status  : {Style.RESET_ALL}"
+                                    f"{Fore.GREEN+Style.BRIGHT}Completed{Style.RESET_ALL}"
+                                )
+                                self.log(
+                                    f"{Fore.BLUE+Style.BRIGHT}   Reward  : {Style.RESET_ALL}"
+                                    f"{Fore.WHITE+Style.BRIGHT}{reward} Points{Style.RESET_ALL}"
+                                )
+                            elif complete.get("data", {}).get("finish_status") == 0:
+                                self.log(
+                                    f"{Fore.BLUE+Style.BRIGHT}   Status  : {Style.RESET_ALL}"
+                                    f"{Fore.RED+Style.BRIGHT}Not Completed{Style.RESET_ALL}"
+                                )
+                            else:
+                                self.log(
+                                    f"{Fore.BLUE+Style.BRIGHT}   Status  : {Style.RESET_ALL}"
+                                    f"{Fore.YELLOW+Style.BRIGHT}Already Completed{Style.RESET_ALL}"
+                                )
+
+                        elif task_id in [7, 8]:
+                            self.log(
+                                f"{Fore.MAGENTA+Style.BRIGHT} ● {Style.RESET_ALL}"
+                                f"{Fore.WHITE+Style.BRIGHT}{title}{Style.RESET_ALL}"
+                            )
+
+                            if not self.api_key:
+                                self.log(
+                                    f"{Fore.BLUE+Style.BRIGHT}   Status  : {Style.RESET_ALL}"
+                                    f"{Fore.RED+Style.BRIGHT}Grok Api Key Not Found{Style.RESET_ALL}"
+                                )
+                                continue
+
+                            topic = random.choice(self.all_topics)
+
+                            if not topic:
+                                self.log(
+                                    f"{Fore.BLUE+Style.BRIGHT}   Status  : {Style.RESET_ALL}"
+                                    f"{Fore.RED+Style.BRIGHT}Topic Not Found{Style.RESET_ALL}"
+                                )
+                                continue
+
+                            self.log(
+                                f"{Fore.BLUE+Style.BRIGHT}   Topic   : {Style.RESET_ALL}"
+                                f"{Fore.WHITE+Style.BRIGHT}{topic}{Style.RESET_ALL}"
+                            )
+
+                            content = await self.generate_content(topic, self.api_key)
+                            if not content: continue
+
+                            title = content['title']
+                            description = content['description']
+
+                            self.log(
+                                f"{Fore.BLUE+Style.BRIGHT}   Title   : {Style.RESET_ALL}"
+                                f"{Fore.WHITE+Style.BRIGHT}{title}{Style.RESET_ALL}"
+                            )
+                            self.log(
+                                f"{Fore.BLUE+Style.BRIGHT}   Content : {Style.RESET_ALL}"
+                                f"{Fore.WHITE+Style.BRIGHT}{description}{Style.RESET_ALL}"
+                            )
+
+                            if task_id == 7:
+                                timestamp = int(time.time()) * 1000
+                                biz_input = f"{title.lower()}{timestamp}-agree-not agree"
+
+                                biz_id = await self.gen_question_id(address, biz_input, use_proxy)
+                                if not biz_id: continue
+                        
+                                if biz_id.get("code") != "200":
+                                    err_msg = biz_id.get("msg", "Unknown Error")
+                                    self.log(
+                                        f"{Fore.BLUE+Style.BRIGHT}   Status  : {Style.RESET_ALL}"
+                                        f"{Fore.RED+Style.BRIGHT}Generate Question Id Failed{Style.RESET_ALL}"
+                                    )
+                                    self.log(
+                                        f"{Fore.BLUE+Style.BRIGHT}   Message : {Style.RESET_ALL}"
+                                        f"{Fore.YELLOW+Style.BRIGHT}{err_msg}{Style.RESET_ALL}"
+                                    )
+                                    continue
+
+                                question_id = biz_id.get("data", {}).get("Biz_Id")
+
+                                options = self.generate_discuss_options()
+
+                                now_time = int(time.time())
+                                published_time = now_time * 1000
+                                end_time = now_time + 1209600
+
+                                discuss_data = {
+                                    "title": title,
+                                    "description": description,
+                                    "question_id": question_id,
+                                    "options": options,
+                                    "published_time": published_time,
+                                    "end_time": end_time,
+                                }
+
+                                tx_hash = await self.process_perfrom_create_discuss(account, address, discuss_data, use_proxy)
+                                if not tx_hash: continue
+
+                                discuss_data["tx_hash"] = tx_hash
+
+                                save_discuss = await self.save_discussion(address, user_id, discuss_data, use_proxy)
+                                if not save_discuss: continue
+
+                                if save_discuss.get("code") != "200":
+                                    err_msg = save_discuss.get("msg", "Unknown Error")
+                                    self.log(
+                                        f"{Fore.BLUE+Style.BRIGHT}   Post    : {Style.RESET_ALL}"
+                                        f"{Fore.RED+Style.BRIGHT}Failed{Style.RESET_ALL}"
+                                    )
+                                    self.log(
+                                        f"{Fore.BLUE+Style.BRIGHT}   Message : {Style.RESET_ALL}"
+                                        f"{Fore.YELLOW+Style.BRIGHT}{err_msg}{Style.RESET_ALL}"
+                                    )
+                                    continue
+
+                                self.log(
+                                    f"{Fore.BLUE+Style.BRIGHT}   Post    : {Style.RESET_ALL}"
+                                    f"{Fore.GREEN+Style.BRIGHT}Success{Style.RESET_ALL}"
+                                )
+
+                            elif task_id == 8:
+                                save_post = await self.save_post(address, user_id, content, use_proxy)
+                                if not save_post: continue
+
+                                if save_post.get("code") != "200":
+                                    err_msg = save_post.get("msg", "Unknown Error")
+                                    self.log(
+                                        f"{Fore.BLUE+Style.BRIGHT}   Post    : {Style.RESET_ALL}"
+                                        f"{Fore.RED+Style.BRIGHT}Failed{Style.RESET_ALL}"
+                                    )
+                                    self.log(
+                                        f"{Fore.BLUE+Style.BRIGHT}   Message : {Style.RESET_ALL}"
+                                        f"{Fore.YELLOW+Style.BRIGHT}{err_msg}{Style.RESET_ALL}"
+                                    )
+                                    continue
+
+                                self.log(
+                                    f"{Fore.BLUE+Style.BRIGHT}   Post    : {Style.RESET_ALL}"
+                                    f"{Fore.GREEN+Style.BRIGHT}Success{Style.RESET_ALL}"
+                                )
+
+                            complete = await self.complete_task(address, task_id, title, use_proxy)
+                            if not complete: continue
+
+                            if complete.get("code") != "200":
+                                err_msg = complete.get("msg", "Unknown Error")
+                                self.log(
+                                    f"{Fore.BLUE+Style.BRIGHT}   Status  : {Style.RESET_ALL}"
+                                    f"{Fore.RED+Style.BRIGHT}Not Completed{Style.RESET_ALL}"
+                                )
+                                self.log(
+                                    f"{Fore.BLUE+Style.BRIGHT}   Message : {Style.RESET_ALL}"
+                                    f"{Fore.YELLOW+Style.BRIGHT}{err_msg}{Style.RESET_ALL}"
+                                )
+                                continue
+
+                            if complete.get("data", {}).get("finish_status") == 1:
+                                self.log(
+                                    f"{Fore.BLUE+Style.BRIGHT}   Status  : {Style.RESET_ALL}"
+                                    f"{Fore.GREEN+Style.BRIGHT}Completed{Style.RESET_ALL}"
+                                )
+                                self.log(
+                                    f"{Fore.BLUE+Style.BRIGHT}   Reward  : {Style.RESET_ALL}"
+                                    f"{Fore.WHITE+Style.BRIGHT}{reward} Points{Style.RESET_ALL}"
+                                )
+                            elif complete.get("data", {}).get("finish_status") == 0:
+                                self.log(
+                                    f"{Fore.BLUE+Style.BRIGHT}   Status  : {Style.RESET_ALL}"
+                                    f"{Fore.RED+Style.BRIGHT}Not Completed{Style.RESET_ALL}"
+                                )
+                            else:
+                                self.log(
+                                    f"{Fore.BLUE+Style.BRIGHT}   Status  : {Style.RESET_ALL}"
+                                    f"{Fore.YELLOW+Style.BRIGHT}Already Completed{Style.RESET_ALL}"
+                                )
+
+                        elif task_id == 9:
+                            self.log(
+                                f"{Fore.MAGENTA+Style.BRIGHT} ● {Style.RESET_ALL}"
+                                f"{Fore.WHITE+Style.BRIGHT}{title}{Style.RESET_ALL}"
+                            )
+
+                            self.log(
+                                f"{Fore.BLUE+Style.BRIGHT}   Amount  : {Style.RESET_ALL}"
+                                f"{Fore.WHITE+Style.BRIGHT}{self.CONFIG['donate']['amount']} GRISE{Style.RESET_ALL}"
+                            )
+
+                            balance = await self.get_token_balance(address, use_proxy, self.CONFIG['donate']['token_address'])
+                            self.log(
+                                f"{Fore.BLUE+Style.BRIGHT}   Balance : {Style.RESET_ALL}"
+                                f"{Fore.WHITE+Style.BRIGHT}{balance} GRISE{Style.RESET_ALL}"
+                            )
+
+                            if balance is None:
+                                self.log(
+                                    f"{Fore.BLUE+Style.BRIGHT}   Status  : {Style.RESET_ALL}"
+                                    f"{Fore.RED+Style.BRIGHT}Failed to Fetch GRISE Token Balance{Style.RESET_ALL}"
+                                )
+                                continue
+
+                            if balance < self.CONFIG['donate']['amount']:
+                                self.log(
+                                    f"{Fore.BLUE+Style.BRIGHT}   Status  : {Style.RESET_ALL}"
+                                    f"{Fore.RED+Style.BRIGHT}Insufficient GRISE Token Balance{Style.RESET_ALL}"
+                                )
+                                continue
+
+                            donate = await self.process_perfrom_donate(account, address, use_proxy)
+                            if not donate: continue
+
+                            complete = await self.complete_task(address, task_id, title, use_proxy)
+                            if not complete: continue
+
+                            if complete.get("code") != "200":
+                                err_msg = complete.get("msg", "Unknown Error")
+                                self.log(
+                                    f"{Fore.BLUE+Style.BRIGHT}   Status  : {Style.RESET_ALL}"
+                                    f"{Fore.RED+Style.BRIGHT}Not Completed{Style.RESET_ALL}"
+                                )
+                                self.log(
+                                    f"{Fore.BLUE+Style.BRIGHT}   Message : {Style.RESET_ALL}"
+                                    f"{Fore.YELLOW+Style.BRIGHT}{err_msg}{Style.RESET_ALL}"
+                                )
+                                continue
+
+                            if complete.get("data", {}).get("finish_status") == 1:
+                                self.log(
+                                    f"{Fore.BLUE+Style.BRIGHT}   Status  : {Style.RESET_ALL}"
+                                    f"{Fore.GREEN+Style.BRIGHT}Completed{Style.RESET_ALL}"
+                                )
+                                self.log(
+                                    f"{Fore.BLUE+Style.BRIGHT}   Reward  : {Style.RESET_ALL}"
+                                    f"{Fore.WHITE+Style.BRIGHT}{reward} Points{Style.RESET_ALL}"
+                                )
+                            elif complete.get("data", {}).get("finish_status") == 0:
+                                self.log(
+                                    f"{Fore.BLUE+Style.BRIGHT}   Status  : {Style.RESET_ALL}"
+                                    f"{Fore.RED+Style.BRIGHT}Not Completed{Style.RESET_ALL}"
+                                )
+                            else:
+                                self.log(
+                                    f"{Fore.BLUE+Style.BRIGHT}   Status  : {Style.RESET_ALL}"
+                                    f"{Fore.YELLOW+Style.BRIGHT}Already Completed{Style.RESET_ALL}"
+                                )
+
+                        elif task_id in [10, 11]:
+                            self.log(
+                                f"{Fore.MAGENTA+Style.BRIGHT} ● {Style.RESET_ALL}"
+                                f"{Fore.WHITE+Style.BRIGHT}{title}{Style.RESET_ALL}"
+                            )
+
+                            home_list = await self.home_list(address, use_proxy)
+                            if not home_list: continue
+
+                            if home_list.get("code") != "200": 
+                                err_msg = home_list.get("msg", "Unknown Error")
+                                self.log(
+                                    f"{Fore.BLUE+Style.BRIGHT}   Status  : {Style.RESET_ALL}"
+                                    f"{Fore.RED+Style.BRIGHT}Failed to Fetch Post List{Style.RESET_ALL}"
+                                )
+                                self.log(
+                                    f"{Fore.BLUE+Style.BRIGHT}   Message : {Style.RESET_ALL}"
+                                    f"{Fore.YELLOW+Style.BRIGHT}{err_msg}{Style.RESET_ALL}"
+                                )
+                                continue
+
+                            post = home_list.get("data", {}).get("list", [])
+                            square = random.choice(post)
+
+                            post_id = square.get("id")
+                            sub_address = square.get("user_wallet")
+
+                            if task_id == 10:
+                                content = random.choice(COMMENT_LIST)
+
+                                self.log(
+                                    f"{Fore.BLUE+Style.BRIGHT}   Post Id : {Style.RESET_ALL}"
+                                    f"{Fore.WHITE+Style.BRIGHT}{post_id}{Style.RESET_ALL}"
+                                )
+                                self.log(
+                                    f"{Fore.BLUE+Style.BRIGHT}   Content : {Style.RESET_ALL}"
+                                    f"{Fore.WHITE+Style.BRIGHT}{content}{Style.RESET_ALL}"
+                                )
+
+                                save_comment = await self.save_comment(address, user_id, post_id, content, use_proxy)
+                                if not save_comment: continue
+
+                                if save_comment.get("code") != "200":
+                                    err_msg = save_comment.get("msg", "Unknown Error")
+                                    self.log(
+                                        f"{Fore.BLUE+Style.BRIGHT}   Comment : {Style.RESET_ALL}"
+                                        f"{Fore.RED+Style.BRIGHT}Failed{Style.RESET_ALL}"
+                                    )
+                                    self.log(
+                                        f"{Fore.BLUE+Style.BRIGHT}   Message : {Style.RESET_ALL}"
+                                        f"{Fore.YELLOW+Style.BRIGHT}{err_msg}{Style.RESET_ALL}"
+                                    )
+                                    continue
+
+                                self.log(
+                                    f"{Fore.BLUE+Style.BRIGHT}   Comment : {Style.RESET_ALL}"
+                                    f"{Fore.GREEN+Style.BRIGHT}Success{Style.RESET_ALL}"
+                                )
+                                
+                            elif task_id == 11:
+                                self.log(
+                                    f"{Fore.BLUE+Style.BRIGHT}   Address : {Style.RESET_ALL}"
+                                    f"{Fore.WHITE+Style.BRIGHT}{sub_address}{Style.RESET_ALL}"
+                                )
+
+                                save_suborder = await self.save_suborder(address, sub_address, use_proxy)
+                                if not save_suborder: continue
+
+                                if save_suborder.get("code") != "200":
+                                    err_msg = save_suborder.get("msg", "Unknown Error")
+                                    self.log(
+                                        f"{Fore.BLUE+Style.BRIGHT}   Suborder: {Style.RESET_ALL}"
+                                        f"{Fore.RED+Style.BRIGHT}Failed{Style.RESET_ALL}"
+                                    )
+                                    self.log(
+                                        f"{Fore.BLUE+Style.BRIGHT}   Message : {Style.RESET_ALL}"
+                                        f"{Fore.YELLOW+Style.BRIGHT}{err_msg}{Style.RESET_ALL}"
+                                    )
+                                    continue
+
+                                self.log(
+                                    f"{Fore.BLUE+Style.BRIGHT}   Suborder: {Style.RESET_ALL}"
+                                    f"{Fore.GREEN+Style.BRIGHT}Success{Style.RESET_ALL}"
+                                )
+
+                            complete = await self.complete_task(address, task_id, title, use_proxy)
+                            if not complete: continue
+
+                            if complete.get("code") != "200":
+                                err_msg = complete.get("msg", "Unknown Error")
+                                self.log(
+                                    f"{Fore.BLUE+Style.BRIGHT}   Status  : {Style.RESET_ALL}"
+                                    f"{Fore.RED+Style.BRIGHT}Not Completed{Style.RESET_ALL}"
+                                )
+                                self.log(
+                                    f"{Fore.BLUE+Style.BRIGHT}   Message : {Style.RESET_ALL}"
+                                    f"{Fore.YELLOW+Style.BRIGHT}{err_msg}{Style.RESET_ALL}"
+                                )
+                                continue
+
+                            if complete.get("data", {}).get("finish_status") == 1:
+                                self.log(
+                                    f"{Fore.BLUE+Style.BRIGHT}   Status  : {Style.RESET_ALL}"
+                                    f"{Fore.GREEN+Style.BRIGHT}Completed{Style.RESET_ALL}"
+                                )
+                                self.log(
+                                    f"{Fore.BLUE+Style.BRIGHT}   Reward  : {Style.RESET_ALL}"
+                                    f"{Fore.WHITE+Style.BRIGHT}{reward} Points{Style.RESET_ALL}"
+                                )
+                            elif complete.get("data", {}).get("finish_status") == 0:
+                                self.log(
+                                    f"{Fore.BLUE+Style.BRIGHT}   Status  : {Style.RESET_ALL}"
+                                    f"{Fore.RED+Style.BRIGHT}Not Completed{Style.RESET_ALL}"
+                                )
+                            else:
+                                self.log(
+                                    f"{Fore.BLUE+Style.BRIGHT}   Status  : {Style.RESET_ALL}"
+                                    f"{Fore.YELLOW+Style.BRIGHT}Already Completed{Style.RESET_ALL}"
+                                )
+
+                        else:
+                            complete = await self.complete_task(address, task_id, title, use_proxy)
+                            if not complete: continue
+
+                            if complete.get("code") != "200":
+                                err_msg = complete.get("msg", "Unknown Error")
+                                self.log(
+                                    f"{Fore.MAGENTA+Style.BRIGHT} ● {Style.RESET_ALL}"
+                                    f"{Fore.WHITE+Style.BRIGHT}{title}{Style.RESET_ALL}"
+                                    f"{Fore.RED+Style.BRIGHT} Not Completed {Style.RESET_ALL}"
+                                    f"{Fore.MAGENTA+Style.BRIGHT}-{Style.RESET_ALL}"
+                                    f"{Fore.YELLOW+Style.BRIGHT} {err_msg} {Style.RESET_ALL}"
+                                )
+                                continue
+
+                            if complete.get("data", {}).get("finish_status") == 1:
+                                self.log(
+                                    f"{Fore.MAGENTA+Style.BRIGHT} ● {Style.RESET_ALL}"
+                                    f"{Fore.WHITE+Style.BRIGHT}{title}{Style.RESET_ALL}"
+                                    f"{Fore.GREEN+Style.BRIGHT} Completed {Style.RESET_ALL}"
+                                    f"{Fore.MAGENTA+Style.BRIGHT}-{Style.RESET_ALL}"
+                                    f"{Fore.CYAN+Style.BRIGHT} Reward: {Style.RESET_ALL}"
+                                    f"{Fore.WHITE+Style.BRIGHT}{reward} Points{Style.RESET_ALL}"
+                                )
+                            elif complete.get("data", {}).get("finish_status") == 0:
+                                self.log(
+                                    f"{Fore.MAGENTA+Style.BRIGHT} ● {Style.RESET_ALL}"
+                                    f"{Fore.WHITE+Style.BRIGHT}{title}{Style.RESET_ALL}"
+                                    f"{Fore.RED+Style.BRIGHT} Not Completed {Style.RESET_ALL}"
+                                )
+                            else:
+                                self.log(
+                                    f"{Fore.MAGENTA+Style.BRIGHT} ● {Style.RESET_ALL}"
+                                    f"{Fore.WHITE+Style.BRIGHT}{title}{Style.RESET_ALL}"
+                                    f"{Fore.YELLOW+Style.BRIGHT} Already Completed {Style.RESET_ALL}"
+                                )
+
+                else:
+                    err_msg = task_list.get("msg", "Unknown Error")
+                    self.log(
+                        f"{Fore.CYAN+Style.BRIGHT}Task List:{Style.RESET_ALL}"
+                        f"{Fore.RED+Style.BRIGHT} Fetch List Failed {Style.RESET_ALL}"
+                        f"{Fore.MAGENTA+Style.BRIGHT}-{Style.RESET_ALL}"
+                        f"{Fore.YELLOW+Style.BRIGHT} {err_msg} {Style.RESET_ALL}"
+                    )
+            
+    async def main(self):
+        try:
+            accounts = self.load_accounts()
+            if not accounts: 
+                self.log(f"{Fore.RED+Style.BRIGHT}No Accounts Loaded.{Style.RESET_ALL}")
+                return
+
+            self.api_key = self.load_grok_api_key()
+            self.all_topics = self.load_all_topics()
+            
+            proxy_choice, rotate_proxy = self.print_question()
+
+            while True:
+                self.clear_terminal()
+                self.welcome()
+                self.log(
+                    f"{Fore.GREEN + Style.BRIGHT}Account's Total: {Style.RESET_ALL}"
+                    f"{Fore.WHITE + Style.BRIGHT}{len(accounts)}{Style.RESET_ALL}"
+                )
+
+                use_proxy = True if proxy_choice == 1 else False
+                if use_proxy: self.load_proxies()
+                
+                separator = "=" * 25
+                for idx, account in enumerate(accounts, start=1):
+                    if account:
+                        address = self.generate_address(account)
+
+                        self.log(
+                            f"{Fore.CYAN + Style.BRIGHT}{separator}[{Style.RESET_ALL}"
+                            f"{Fore.WHITE + Style.BRIGHT} {idx} {Style.RESET_ALL}"
+                            f"{Fore.CYAN + Style.BRIGHT}-{Style.RESET_ALL}"
+                            f"{Fore.WHITE + Style.BRIGHT} {self.mask_account(address)} {Style.RESET_ALL}"
+                            f"{Fore.CYAN + Style.BRIGHT}]{separator}{Style.RESET_ALL}"
+                        )
+
+                        if not address:
+                            self.log(
+                                f"{Fore.CYAN + Style.BRIGHT}Status   :{Style.RESET_ALL}"
+                                f"{Fore.RED + Style.BRIGHT} Invalid Private Key or Library Version Not Supported {Style.RESET_ALL}"
+                            )
+                            continue
+
+                        self.access_tokens[address] = str(uuid.uuid4())
+
+                        self.HEADERS[address] = {
+                            "Accept": "*/*",
+                            "Accept-Language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7",
+                            "Origin": "[https://app.polarise.org](https://app.polarise.org)",
+                            "Referer": "[https://app.polarise.org/](https://app.polarise.org/)",
+                            "Sec-Fetch-Dest": "empty",
+                            "Sec-Fetch-Mode": "cors",
+                            "Sec-Fetch-Site": "same-site",
+                            "User-Agent": FakeUserAgent().random
+                        }
+
+                        await self.process_accounts(account, address, use_proxy, rotate_proxy)
+                        await asyncio.sleep(3)
+
+                self.log(f"{Fore.CYAN + Style.BRIGHT}={Style.RESET_ALL}"*72)
+                seconds = 24 * 60 * 60
+                while seconds > 0:
+                    formatted_time = self.format_seconds(seconds)
+                    print(
+                        f"{Fore.CYAN+Style.BRIGHT}[ Wait for{Style.RESET_ALL}"
+                        f"{Fore.WHITE+Style.BRIGHT} {formatted_time} {Style.RESET_ALL}"
+                        f"{Fore.CYAN+Style.BRIGHT}... ]{Style.RESET_ALL}"
+                        f"{Fore.WHITE+Style.BRIGHT} | {Style.RESET_ALL}"
+                        f"{Fore.BLUE+Style.BRIGHT}All Accounts Have Been Processed.{Style.RESET_ALL}",
+                        end="\r"
+                    )
+                    await asyncio.sleep(1)
+                    seconds -= 1
+        
+        except Exception as e:
+            self.log(f"{Fore.RED+Style.BRIGHT}Error: {e}{Style.RESET_ALL}")
+            raise e
+
+if __name__ == "__main__":
+    try:
+        bot = Polarise()
+        asyncio.run(bot.main())
+    except KeyboardInterrupt:
+        print(
+            f"{Fore.CYAN + Style.BRIGHT}[ {datetime.now().astimezone(wib).strftime('%x %X %Z')} ]{Style.RESET_ALL}"
+            f"{Fore.WHITE + Style.BRIGHT} | {Style.RESET_ALL}"
+            f"{Fore.RED + Style.BRIGHT}[ EXIT ] Polarise - BOT{Style.RESET_ALL}                                        "                             
+        )
